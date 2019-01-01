@@ -1,0 +1,13 @@
+查看分支： git branch -d 删除分支
+
+提交到git本地仓库: git commit -m 1
+
+切换分支： git checkout -b a 创建并切换到新分支
+
+在主分支下合并分支： git merge  a
+
+查看修改内容： git diff a.txt
+
+回滚至上一个版本： git rest --hard HEAD^
+
+操作记录：git reflog
